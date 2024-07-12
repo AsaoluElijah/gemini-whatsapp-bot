@@ -1,0 +1,49 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files and directories
+# PhpStorm
+.idea/
+# VSCode
+.vscode/
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore coverage reports
+coverage/
+.clover
+
+# Ignore build artifacts and cache
+/build/
+.cache/
+*.cache
+*.tmp
+*.temp
+
+# Ignore personal settings
+*.swp
+*.swo
+
+# Ignore any files matching these patterns
+*.bak
+*.backup
+*.old
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+
+# Ignore other common files and directories
+/public/uploads/
